@@ -1,18 +1,18 @@
-## Getting Started
+## Target
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Olá, desenvolvi os exercícios na linguagem Java, decidi por colocar todos juntos na src (cada um com uma main), para evitar confusões. 
+Me chamo Pedro Rosa Bortolanza, tenho 19 anos, estudante de Engenharia de Software, email: pedrorbortolanza@hotmail.com
 
-## Folder Structure
+## JSON
 
-The workspace contains two folders by default, where:
+Baixei 3 arquivos jackson necessários para funcionar na pasta lib com o método que fiz para segurar como uma fonte de dados.
+Além da configuração do .vscode, e classpath no terminal. 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+comandos terminal (exer03): 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+  javac -cp "lib/*" src/Exer03.java    
+  java -cp "lib/*:src" Exer03
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- `src`: localizados todos os exercícios
+- `lib`: dependências arquivos JSON
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
