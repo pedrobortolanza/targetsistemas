@@ -8,7 +8,8 @@ Me chamo Pedro Rosa Bortolanza, tenho 19 anos, estudante de Engenharia de Softwa
 Baixei 3 arquivos jackson necessários para funcionar na pasta lib com o método que fiz para segurar como uma fonte de dados.
 Além da configuração do .vscode, e classpath no terminal. 
 
-comandos: 
+comandos terminal (exer03): 
+
   javac -cp "lib/*" src/Exer03.java    
   java -cp "lib/*:src" Exer03
 
